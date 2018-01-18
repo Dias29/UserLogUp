@@ -31,8 +31,8 @@
         </StackPanel>
 
         <StackPanel Orientation="Horizontal"  Grid.Row="2" Margin="12,0,4,147" HorizontalAlignment="Center" Width="166" Grid.Column="1">
-            <Button Content="Вход" HorizontalAlignment="Center" VerticalAlignment="Top" Width="81" Height="20" Margin="0" VerticalContentAlignment="Stretch" Click="ButtonClick"/>
-            <Button Content="Регистрация" HorizontalAlignment="Center" VerticalAlignment="Top" Width="85" VerticalContentAlignment="Stretch"/>
+            <Button Content="Вход" HorizontalAlignment="Center" VerticalAlignment="Top" Width="81" Height="20" Margin="0" VerticalContentAlignment="Stretch" />
+            <Button Content="Регистрация" HorizontalAlignment="Center" VerticalAlignment="Top" Width="85" VerticalContentAlignment="Stretch" Click="Button_Click"/>
         </StackPanel>
     </Grid>
 </Page>

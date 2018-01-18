@@ -32,10 +32,15 @@ namespace UserLogUp
             this.mainWindow = mainWindow;
         }
 
-        private void ButtonClick(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show();
+            mainWindow.Content = new CheckWindow();
         }
+
+        //private void ButtonClick(object sender, RoutedEventArgs e)
+        //{
+        //    MessageBox.Show();
+        //}
 
         //private void 
     }
